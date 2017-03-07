@@ -19,7 +19,7 @@
 Example using the bridge driver (replace `bridge` with the name of the plugin/driver you wish to test):
 
 ```
-$NETDRIVER=bridge
+export NETDRIVER=bridge
 bats build.bats
 
  ✓ Test: Create, start container and delete Docker network using driver (bridge)
